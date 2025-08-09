@@ -15,9 +15,12 @@ I am excited to connect with professionals who share my passion for data, techno
 ---
 **SKILLS**
 
-**Languages** : `Python` `SQL` `JAVA` `C++` `HTML` 
+**Languages** : `Python` `SQL` `JAVA` `C++` `HTML`   
+
 **Cloud Technologies**  `Databricks` `Azure` `Azure Data Factory` `AWS`
+
 **Database** `MySQL` `Oracle SQL` `Snowflake`
+
 **Tools** `Tableau` `Power BI` `Git`
 
 ---
