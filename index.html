@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shriya Pekamwar — Data Engineer</title>
+  <meta name="description" content="Shriya Pekamwar — Data Engineer building reliable, scalable data pipelines on Snowflake, AWS and Azure." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    (function () {
+      var t = localStorage.getItem("theme");
+      if (!t) t = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">SP<span class="accent">.</span></a>
+      <nav>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button class="theme-toggle" aria-label="Toggle dark mode">◐</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <p class="mono eyebrow">Hi, my name is</p>
+        <h1>Shriya Pekamwar.</h1>
+        <h2 class="muted">I build data pipelines people can rely on.</h2>
+        <p class="lead">
+          I'm a Data Engineer specializing in scalable ETL/ELT workflows on
+          <strong>Snowflake</strong>, <strong>AWS</strong>, and <strong>Azure</strong>.
+          Currently pursuing an MS in Information Systems at Northeastern University in Boston.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View my work</a>
+          <a href="https://github.com/Shriya-Pekamwar" class="btn btn-ghost" target="_blank" rel="noopener">GitHub ↗</a>
+          <!-- <a href="resume.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Resume ↗</a> -->
+        </div>
+        <div class="stats">
+          <div><span class="stat-num">2.5+</span><span class="stat-label">years in data engineering</span></div>
+          <div><span class="stat-num">98%</span><span class="stat-label">faster data delivery at MGH</span></div>
+          <div><span class="stat-num">SnowPro</span><span class="stat-label">Core certified</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h3 class="section-title"><span class="mono accent">01.</span> About</h3>
+        <div class="about-grid">
+          <div>
+            <p>
+              I care about making data <em>reliable</em>, <em>secure</em>, and <em>easy to use</em>.
+              My work spans Snowflake platform architecture, automated ETL pipelines, and
+              data governance — from RBAC and row/column-level security for PII to
+              building AI-ready datasets for copilots and semantic search.
+            </p>
+            <p>
+              Before moving to Boston, I spent two years at Deloitte building Azure Data Factory
+              pipelines and optimizing stored procedures for enterprise clients. Most recently
+              I was a Data Engineer Co-op at Home Base, Mass General Hospital.
+            </p>
+            <p>
+              I enjoy working across teams to turn messy, manual processes into clean, automated systems.
+            </p>
+          </div>
+          <div class="card edu">
+            <h4>Education</h4>
+            <div class="edu-item">
+              <p class="edu-degree">M.S. Information Systems</p>
+              <p class="muted">Northeastern University · Boston</p>
+              <p class="mono small">Expected Dec 2026</p>
+            </div>
+            <div class="edu-item">
+              <p class="edu-degree">B.Tech Computer Engineering</p>
+              <p class="muted">Cummins College of Engineering for Women · Pune</p>
+              <p class="mono small">May 2022</p>
+            </div>
+            <h4>Certification</h4>
+            <p>SnowPro Core Certification</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h3 class="section-title"><span class="mono accent">02.</span> Experience</h3>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <p class="mono small">Jan 2026 — Aug 2026</p>
+              <p class="muted small">Boston, MA</p>
+            </div>
+            <div class="timeline-body">
+              <h4>Data Engineer Co-op <span class="accent">@ Home Base, Mass General Hospital</span></h4>
+              <ul>
+                <li>Optimized Snowflake SQL workloads (warehouse sizing, clustering) to deliver a reporting-ready Epic dataset, improving data-delivery efficiency by ~98%.</li>
+                <li>Designed a script-based solution to automate extraction from master Excel files, with RBAC, masking, and row/column-level security protecting PII.</li>
+                <li>Owned Snowflake platform architecture — schemas, views, Snowpipes, Streams, and Tasks — delivering governed, AI-ready data for copilots and semantic search.</li>
+                <li>Built automated ETL workflows with Python and SQL Server Agent, with GitLab version control and multi-environment deployments.</li>
+              </ul>
+              <div class="tags"><span>Snowflake</span><span>Python</span><span>SQL Server</span><span>GitLab</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <p class="mono small">Jul 2022 — Jul 2024</p>
+              <p class="muted small">Hyderabad, India</p>
+            </div>
+            <div class="timeline-body">
+              <h4>Data Engineer <span class="accent">@ Deloitte</span></h4>
+              <ul>
+                <li>Designed and optimized 30+ stored procedures and ETL pipelines, resolving 100% of reported code issues and improving query performance by 40%.</li>
+                <li>Deployed scalable Azure Data Factory pipelines integrating structured and unstructured data from systems like SAP, boosting data accessibility by 25%.</li>
+                <li>Built a centralized Power BI dashboard across 10+ databases using semantic models and DAX, cutting manual access-audit effort by 60%.</li>
+              </ul>
+              <div class="tags"><span>Azure Data Factory</span><span>SQL</span><span>Power BI</span><span>SAP</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h3 class="section-title"><span class="mono accent">03.</span> Projects</h3>
+        <div class="project-grid">
+          <article class="card project">
+            <div class="project-head">
+              <span class="project-icon">⛁</span>
+              <a href="https://github.com/Shriya-Pekamwar/SEC-Financial-Data-ETL" class="project-link" aria-label="GitHub repository" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+            <h4>SEC Financial Data ETL</h4>
+            <p>
+              Automated Airflow pipeline that extracts, validates, and loads SEC financial data into Snowflake.
+              FastAPI services trigger workflows and run queries; a Streamlit app with authentication lets users
+              launch pipelines and analyze filings. Fully containerized with Docker.
+            </p>
+            <div class="tags"><span>Airflow</span><span>Snowflake</span><span>FastAPI</span><span>Streamlit</span><span>Docker</span><span>AWS</span></div>
+          </article>
+
+          <article class="card project">
+            <div class="project-head">
+              <span class="project-icon">◎</span>
+              <!-- add GitHub link: <a href="#" class="project-link" aria-label="GitHub repository" target="_blank" rel="noopener">GitHub ↗</a> -->
+            </div>
+            <h4>Orbit: AI-Powered PE Dashboard</h4>
+            <p>
+              Production RAG pipeline on AWS. Eliminated a recurring hallucination defect through prompt
+              re-engineering and a validation layer, and achieved 38% higher extraction accuracy using
+              ChromaDB embeddings and GPT-4o over a 7,300+ chunk knowledge base.
+            </p>
+            <div class="tags"><span>RAG</span><span>ChromaDB</span><span>GPT-4o</span><span>AWS</span></div>
+          </article>
+
+          <article class="card project">
+            <div class="project-head">
+              <span class="project-icon">▤</span>
+              <!-- add GitHub link: <a href="#" class="project-link" aria-label="GitHub repository" target="_blank" rel="noopener">GitHub ↗</a> -->
+            </div>
+            <h4>Financial Report Parsing</h4>
+            <p>
+              Reproducible document-extraction workflow with DVC dependency tracking and GitHub Actions CI/CD,
+              cutting manual validation by 98%. Multi-strategy extraction (OCR, layout detection, table parsing)
+              reached 95% accuracy across text, tables, and figures.
+            </p>
+            <div class="tags"><span>Azure</span><span>DVC</span><span>GitHub Actions</span><span>OCR</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h3 class="section-title"><span class="mono accent">04.</span> Skills</h3>
+        <div class="skills-grid">
+          <div class="card">
+            <h4>Languages &amp; Databases</h4>
+            <div class="tags"><span>Python</span><span>SQL</span><span>Java</span><span>JavaScript</span><span>MySQL</span><span>Oracle SQL</span><span>Snowflake</span></div>
+          </div>
+          <div class="card">
+            <h4>Cloud</h4>
+            <div class="tags"><span>AWS</span><span>Azure</span><span>Azure Data Factory</span></div>
+          </div>
+          <div class="card">
+            <h4>Frameworks &amp; Tools</h4>
+            <div class="tags"><span>Airflow</span><span>Streamlit</span><span>FastAPI</span><span>Docker</span><span>Power BI</span><span>Git</span></div>
+          </div>
+          <div class="card">
+            <h4>Data Governance</h4>
+            <div class="tags"><span>RBAC</span><span>Data Masking</span><span>Row/Column-Level Security</span><span>CI/CD</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container narrow">
+        <h3 class="section-title center"><span class="mono accent">05.</span> Get in touch</h3>
+        <p class="lead center">
+          I'm looking for full-time Data Engineering roles starting in early 2027.
+          Whether you have an opportunity or just want to say hi, my inbox is open.
+        </p>
+        <div class="center">
+          <a href="mailto:pekamwar.s@northeastern.edu" class="btn btn-primary">Say hello</a>
+        </div>
+        <ul class="socials">
+          <li><a href="mailto:pekamwar.s@northeastern.edu">Email</a></li>
+          <!-- <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a></li> -->
+          <li><a href="https://github.com/Shriya-Pekamwar" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="mono small muted">Designed &amp; built by Shriya Pekamwar · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
