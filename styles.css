@@ -115,6 +115,8 @@ ul { list-style: none; }
 .about-text p { color: var(--muted); }
 .about-text p + p { margin-top: 16px; }
 .about-text em { color: var(--accent); font-style: normal; }
+.about-text strong { color: var(--text); font-weight: 600; }
+.about-text .about-intro { color: var(--text); font-size: 1.15rem; }
 
 /* EDUCATION */
 .edu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
