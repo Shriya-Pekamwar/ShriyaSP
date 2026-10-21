@@ -26,9 +26,11 @@
         <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><button class="theme-toggle" aria-label="Toggle dark mode">◐</button></li>
         </ul>
@@ -65,8 +67,7 @@
     <section id="about" class="section">
       <div class="container">
         <h3 class="section-title"><span class="mono accent">01.</span> About</h3>
-        <div class="about-grid">
-          <div>
+        <div class="about-text">
             <p>
               I care about making data <em>reliable</em>, <em>secure</em>, and <em>easy to use</em>.
               My work spans Snowflake platform architecture, automated ETL pipelines, and
@@ -81,22 +82,26 @@
             <p>
               I enjoy working across teams to turn messy, manual processes into clean, automated systems.
             </p>
-          </div>
-          <div class="card edu">
-            <h4>Education</h4>
-            <div class="edu-item">
-              <p class="edu-degree">M.S. Information Systems</p>
-              <p class="muted">Northeastern University · Boston</p>
-              <p class="mono small">Expected Dec 2026</p>
-            </div>
-            <div class="edu-item">
-              <p class="edu-degree">B.Tech Computer Engineering</p>
-              <p class="muted">Cummins College of Engineering for Women · Pune</p>
-              <p class="mono small">May 2022</p>
-            </div>
-            <h4>Certification</h4>
-            <p>SnowPro Core Certification</p>
-          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <h3 class="section-title"><span class="mono accent">02.</span> Education</h3>
+        <div class="edu-grid">
+          <article class="card edu-card">
+            <p class="mono small accent">Expected Dec 2026</p>
+            <h4>M.S. Information Systems</h4>
+            <p class="muted">Northeastern University · Boston, MA</p>
+            <div class="tags"><span>Data Modeling</span><span>SQL</span><span>Python</span><span>Snowflake</span></div>
+          </article>
+          <article class="card edu-card">
+            <p class="mono small accent">May 2022</p>
+            <h4>B.Tech Computer Engineering</h4>
+            <p class="muted">Cummins College of Engineering for Women · Pune, India</p>
+          </article>
         </div>
       </div>
     </section>
@@ -104,7 +109,7 @@
     <!-- EXPERIENCE -->
     <section id="experience" class="section">
       <div class="container">
-        <h3 class="section-title"><span class="mono accent">02.</span> Experience</h3>
+        <h3 class="section-title"><span class="mono accent">03.</span> Industry Experience</h3>
         <div class="timeline">
           <article class="timeline-item">
             <div class="timeline-meta">
@@ -145,7 +150,7 @@
     <!-- PROJECTS -->
     <section id="projects" class="section">
       <div class="container">
-        <h3 class="section-title"><span class="mono accent">03.</span> Projects</h3>
+        <h3 class="section-title"><span class="mono accent">04.</span> Projects</h3>
         <div class="project-grid">
           <article class="card project">
             <div class="project-head">
@@ -195,7 +200,7 @@
     <!-- SKILLS -->
     <section id="skills" class="section">
       <div class="container">
-        <h3 class="section-title"><span class="mono accent">04.</span> Skills</h3>
+        <h3 class="section-title"><span class="mono accent">05.</span> Skills</h3>
         <div class="skills-grid">
           <div class="card">
             <h4>Languages &amp; Databases</h4>
@@ -217,10 +222,28 @@
       </div>
     </section>
 
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <h3 class="section-title"><span class="mono accent">06.</span> Certifications</h3>
+        <div class="cert-grid">
+          <article class="card cert-card">
+            <span class="cert-icon">❄</span>
+            <div>
+              <h4>SnowPro Core Certification</h4>
+              <p class="muted small">Snowflake</p>
+              <!-- add verify link: <a href="#" class="project-link" target="_blank" rel="noopener">Verify ↗</a> -->
+            </div>
+          </article>
+          <!-- Copy the card above to add more certifications -->
+        </div>
+      </div>
+    </section>
+
     <!-- CONTACT -->
     <section id="contact" class="section contact">
       <div class="container narrow">
-        <h3 class="section-title center"><span class="mono accent">05.</span> Get in touch</h3>
+        <h3 class="section-title center"><span class="mono accent">07.</span> Get in touch</h3>
         <p class="lead center">
           I'm looking for full-time Data Engineering roles starting in early 2027.
           Whether you have an opportunity or just want to say hi, my inbox is open.

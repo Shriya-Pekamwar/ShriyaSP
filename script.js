@@ -25,7 +25,7 @@ const nav = document.querySelector(".nav");
 window.addEventListener("scroll", () => nav.classList.toggle("scrolled", window.scrollY > 10), { passive: true });
 
 // Reveal sections on scroll
-const revealEls = document.querySelectorAll(".section, .timeline-item, .project, .skills-grid .card");
+const revealEls = document.querySelectorAll(".section, .timeline-item, .project, .skills-grid .card, .edu-card, .cert-card");
 revealEls.forEach((el) => el.classList.add("reveal"));
 const io = new IntersectionObserver(
   (entries) => {
